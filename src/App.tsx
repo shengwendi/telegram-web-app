@@ -12,7 +12,7 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
       </div>
-      <div>{JSON.stringify(WebApp)}</div>
+      <div className="jsonBox">{JSON.stringify(WebApp)}</div>
       <div className="card">
         <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>Show Alert</button>
       </div>

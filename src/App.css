@@ -36,7 +36,9 @@
 .card {
   padding: 2em;
 }
-
+.jsonBox {
+  word-break: break-all;
+}
 .read-the-docs {
   color: #888;
 }
