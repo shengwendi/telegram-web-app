@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       {(WebApp.headerColor = '#0088ff')}
+      {(WebApp.backgroundColor = '#ff6600')}
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
       </div>
-      <div className="jsonBox">{JSON.stringify(WebApp)}</div>
       <div className="card">
         <button
           onClick={() =>
@@ -25,6 +25,7 @@ function App() {
           Show Alert
         </button>
       </div>
+      <div className="jsonBox">{JSON.stringify(WebApp)}</div>
     </>
   )
 }
